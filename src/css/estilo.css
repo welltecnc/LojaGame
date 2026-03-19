@@ -1,0 +1,41 @@
+/* VARIAVEIS GLOBAIS */
+:root{
+    --color-primary:#722ed1;
+    --bg-dark: #141414;
+    --bg-card:#1f1f1f;
+    --text-color:#fff;
+    --btn-color:#00ff88;
+}
+body{
+    background: var(--bg-dark);
+    color:var(--text-color);
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 5%;
+    background: rgba(0,0,0,0.8);
+}
+.logo{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.logo span{
+    color:var(--btn-color)
+}
+nav ul{
+    display:  flex;
+    list-style: none;
+}
+nav ul li{
+    margin: 0 15px;
+}
+nav ul li a{
+    color:var(--text-color);
+    text-decoration: none;
+    transition: 0.3s;
+}
+nav ul li a:hover{
+    color:var(--btn-color);
+}
